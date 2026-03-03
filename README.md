@@ -75,4 +75,4 @@ This project is optimized for deployment on [Vercel](https://vercel.com/) or any
 - **Instagram:** [@yashvardhan.0912](https://www.instagram.com/yashvardhan.0912)
 
 ---
-*Built with ❤️ by Yashvardhan*
+*Built by Yashvardhan Singh*
