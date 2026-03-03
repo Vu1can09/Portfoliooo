@@ -7,7 +7,6 @@ import { Hero } from "@/components/features/Hero";
 import { About } from "@/components/features/About";
 import { Skills } from "@/components/features/Skills";
 import { ProjectsSection } from "@/components/features/ProjectsSection";
-import { Principles } from "@/components/features/Principles";
 import { Contact } from "@/components/features/Contact";
 
 export default function Home() {
@@ -40,26 +39,16 @@ export default function Home() {
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className="flex min-h-screen w-full flex-col items-center overflow-x-hidden"
     >
-      <div className="w-full flex flex-col gap-0 md:gap-10">
+      <div className="w-full flex flex-col">
         <Hero />
 
-        <div className="w-full bg-white/[0.01] border-y border-white/5">
-          <About />
-        </div>
+        <About />
 
         <Skills />
 
-        <div className="w-full bg-white/[0.01] border-y border-white/5">
-          <ProjectsSection />
-        </div>
+        <ProjectsSection />
 
-        <section className="w-full flex flex-col pt-10">
-          <Principles />
-        </section>
-
-        <div className="w-full bg-black/20 border-t border-white/5">
-          <Contact />
-        </div>
+        <Contact />
       </div>
     </motion.main>
   );

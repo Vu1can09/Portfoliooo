@@ -16,7 +16,6 @@ export function Navigation() {
         { name: "About", href: "#about" },
         { name: "Skills", href: "#skills" },
         { name: "Projects", href: "#projects" },
-        { name: "Principles", href: "#principles" },
         { name: "Contact", href: "#contact" },
     ];
 
