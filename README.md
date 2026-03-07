@@ -2,7 +2,7 @@
 
 A modern, highly interactive personal portfolio website built to showcase projects, skills, and technical infrastructure expertise. Designed with premium glassmorphism aesthetics, fluid 3D animations, and high performance in mind.
 
-![Portfolio Preview](./public/preview.png) *(Note: Add a screenshot of your site here in the future)*
+![Portfolio Preview](./public/preview.png) 
 
 ## 🚀 Features
 
