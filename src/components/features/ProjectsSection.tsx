@@ -3,33 +3,33 @@
 import { motion } from "framer-motion";
 import { ProjectCard, ProjectType } from "./ProjectCard";
 
-const projects: ProjectType[] = [
-    {
-        title: "RISC-V Core with Custom AI Acceleration",
-        description: "Designed a 5-stage pipelined RISC-V processor in Verilog with custom instruction extensions tailored for hardware-accelerated matrix multiplication and AI inference workloads.",
-        techStack: ["Verilog", "RISC-V", "FPGA", "Computer Architecture"],
-    },
-    {
-        title: "Twitch Clone – Scalable Streaming Platform",
-        description: "Architected a full-stack live streaming platform supporting real-time video broadcast, low-latency WebRTC chatting, and scalable user authentication using Next.js 14 and web sockets.",
-        techStack: ["Next.js 14", "TypeScript", "Tailwind CSS", "WebRTC", "Socket.IO"],
-        githubUrl: "https://github.com/Vu1can09/twitch-clone",
-    },
-    {
-        title: "MP3 Player PCB Design",
-        description: "Engineered a custom multi-layer PCB for a standalone MP3 player. Implemented digital-to-analog conversion logic, power management profiling, and integrated structural firmware testing.",
-        techStack: ["KiCad", "PCB Design", "Hardware Engineering", "Microcontrollers"],
-    },
-    {
-        title: "Smart Motion Alarm PCB",
-        description: "Developed a compact motion-activated alarm system built around the ATmega328P. Handled schematic capture, board layout, component sourcing, and embedded C firmware programming.",
-        techStack: ["ATmega328P", "Embedded C", "KiCad", "Sensors", "Circuit Design"],
-    },
-    {
-        title: "RFID-Based Embedded Authentication System",
-        description: "Constructed a secure physical access control system leveraging SPI/I2C communication protocols to interface RFID modules with microcontrollers for real-time cryptographic verification.",
-        techStack: ["C/C++", "Embedded Systems", "SPI/I2C", "Security Protocols", "RFID"],
-    },
+const projects: ProjectType[] = [{
+    title: "RISC-V Core with Custom AI Acceleration",
+    description: "Designed a 5-stage pipelined RISC-V processor in Verilog with custom instruction extensions tailored for hardware-accelerated matrix multiplication and AI inference workloads.",
+    techStack: ["Verilog", "RISC-V", "FPGA", "Computer Architecture"],
+    githubUrl: "https://github.com/Vu1can09/RISCV-with-custom-hardware-acceleration",
+},
+{
+    title: "Twitch Clone – Scalable Streaming Platform",
+    description: "Architected a full-stack live streaming platform supporting real-time video broadcast, low-latency WebRTC chatting, and scalable user authentication using Next.js 14 and web sockets.",
+    techStack: ["Next.js 14", "TypeScript", "Tailwind CSS", "WebRTC", "Socket.IO"],
+    githubUrl: "https://github.com/Vu1can09/twitch-clone",
+},
+{
+    title: "MP3 Player PCB Design",
+    description: "Engineered a custom multi-layer PCB for a standalone MP3 player. Implemented digital-to-analog conversion logic, power management profiling, and integrated structural firmware testing.",
+    techStack: ["KiCad", "PCB Design", "Hardware Engineering", "Microcontrollers"],
+},
+{
+    title: "Smart Motion Alarm PCB",
+    description: "Developed a compact motion-activated alarm system built around the ATmega328P. Handled schematic capture, board layout, component sourcing, and embedded C firmware programming.",
+    techStack: ["ATmega328P", "Embedded C", "KiCad", "Sensors", "Circuit Design"],
+},
+{
+    title: "RFID-Based Embedded Authentication System",
+    description: "Constructed a secure physical access control system leveraging SPI/I2C communication protocols to interface RFID modules with microcontrollers for real-time cryptographic verification.",
+    techStack: ["C/C++", "Embedded Systems", "SPI/I2C", "Security Protocols", "RFID"],
+},
 ];
 
 export function ProjectsSection() {
