@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Cpu, Layers, Activity, Server } from "lucide-react";
+import { GraduationCap, Cpu, Layers, Activity } from "lucide-react";
 
 export function About() {
     const containerVariants = {
@@ -27,7 +27,7 @@ export function About() {
     const stats = [
         {
             icon: <Layers className="h-5 w-5 text-[var(--color-accent-blue)]" />,
-            label: "5+ Advanced",
+            label: "3 Advanced",
             sublabel: "Engineering Projects",
         },
         {
@@ -40,11 +40,7 @@ export function About() {
             label: "FPGA & PCB",
             sublabel: "Multi-Layer Experience",
         },
-        {
-            icon: <Server className="h-5 w-5 text-[var(--color-accent-violet)]" />,
-            label: "Real-Time Platform",
-            sublabel: "Streaming Development",
-        },
+
     ];
 
     return (
@@ -66,9 +62,8 @@ export function About() {
                             </h2>
                             <p className="max-w-xl text-lg text-foreground/60 leading-relaxed">
                                 Electronics & Communication Engineer with a strong systems mindset across
-                                hardware and software. Experienced in designing pipelined RISC-V processors
-                                with custom instruction extensions and building scalable, high-performance
-                                full-stack applications.
+                                hardware. Experienced in designing pipelined RISC-V processors with custom
+                                instruction extensions and building scalable.
                             </p>
                         </motion.div>
 

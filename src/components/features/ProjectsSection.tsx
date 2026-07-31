@@ -10,12 +10,6 @@ const projects: ProjectType[] = [{
     githubUrl: "https://github.com/Vu1can09/RISCV-with-custom-hardware-acceleration",
 },
 {
-    title: "Twitch Clone – Scalable Streaming Platform",
-    description: "Architected a full-stack live streaming platform supporting real-time video broadcast, low-latency WebRTC chatting, and scalable user authentication using Next.js 14 and web sockets.",
-    techStack: ["Next.js 14", "TypeScript", "Tailwind CSS", "WebRTC", "Socket.IO"],
-    githubUrl: "https://github.com/Vu1can09/twitch-clone",
-},
-{
     title: "MP3 Player PCB Design",
     description: "Engineered a custom multi-layer PCB for a standalone MP3 player. Implemented digital-to-analog conversion logic, power management profiling, and integrated structural firmware testing.",
     techStack: ["KiCad", "PCB Design", "Hardware Engineering", "Microcontrollers"],

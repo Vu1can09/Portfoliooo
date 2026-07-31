@@ -6,10 +6,9 @@ import { useTypewriter } from "@/hooks/useTypewriter";
 
 const TYPEWRITER_SUBJECTS = [
     "Custom RISC-V Core Design",
-    "Hardware Acceleration for AI",
-    "FPGA & Embedded Systems",
-    "Full-Stack Web Applications",
-    "Performance-Oriented Architecture",
+    "Embedded Systems",
+    "Operating Systems",
+    "Computer Architecture",
 ];
 
 export function Hero() {
@@ -76,8 +75,8 @@ export function Hero() {
                         variants={itemVariants}
                         className="max-w-2xl text-base text-foreground/50 sm:text-lg sm:leading-relaxed"
                     >
-                        Bridging the gap between low-level hardware architecture and high-performance
-                        web ecosystems. Crafting digital experiences from the logic gates up to the DOM.
+                        ECE student hooked on digital VLSI and computer architecture — I like RTL design, synthesis.
+                        Looking for opportunities in RTL design, digital VLSI, or embedded systems to keep learning by building.
                     </motion.p>
 
                     <motion.div variants={itemVariants} className="mt-6 flex flex-wrap items-center gap-4">

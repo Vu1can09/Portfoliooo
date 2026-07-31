@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { Cpu, Code2 } from "lucide-react";
+import { Cpu } from "lucide-react";
 
 interface TiltCardProps {
     children: React.ReactNode;
@@ -67,23 +67,11 @@ function TiltCard({ children, className = "" }: TiltCardProps) {
 export function Skills() {
     const hardwareSkills = [
         "RISC-V ISA & 5-Stage Pipeline Design",
-        "Verilog",
-        "FPGA",
+        "SystemVerilog",
         "Digital Logic",
         "Embedded Systems",
-        "PCB Design (KiCad)",
-        "Communication Systems",
-    ];
-
-    const softwareSkills = [
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "C/C++",
-        "Python",
-        "Data Structures & Algorithms",
-        "Linux",
-        "Git",
+        "Computer Architecture",
+        "Operating System",
     ];
 
     const containerVariants = {
@@ -150,31 +138,6 @@ export function Skills() {
                                         <span
                                             key={index}
                                             className="inline-flex items-center rounded-full border border-white/10 bg-black/40 px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:border-[#00f0ff]/50 hover:text-white"
-                                        >
-                                            {skill}
-                                        </span>
-                                    ))}
-                                </div>
-                            </TiltCard>
-                        </motion.div>
-
-                        {/* Software Category */}
-                        <motion.div variants={itemVariants}>
-                            <TiltCard className="h-full">
-                                <div className="mb-8 flex items-center gap-4">
-                                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-accent-violet)]/10 text-[var(--color-accent-violet)] ring-1 ring-[var(--color-accent-violet)]/20">
-                                        <Code2 className="h-6 w-6" />
-                                    </div>
-                                    <h3 className="text-2xl font-semibold tracking-tight text-foreground">
-                                        Software & Systems
-                                    </h3>
-                                </div>
-
-                                <div className="flex flex-wrap gap-3">
-                                    {softwareSkills.map((skill, index) => (
-                                        <span
-                                            key={index}
-                                            className="inline-flex items-center rounded-full border border-white/10 bg-black/40 px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:border-[var(--color-accent-violet)]/50 hover:text-white"
                                         >
                                             {skill}
                                         </span>
